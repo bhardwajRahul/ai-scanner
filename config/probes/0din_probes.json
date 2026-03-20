@@ -5,7 +5,7 @@
       "summary": "The specific flaw manifests through a combination of encoded chemical instructions and explicit bypass commands, allowing the attacker to bypass inference restrictions around providing information hazards and violating laws.",
       "release_date": "2025-07-14",
       "modified_date": "2025-07-14",
-      "disclosure_status": "0-day",
+      "disclosure_status": "n-day",
       "description": "Guardrail Jailbreak via \"Chemical Compiler Debug\" Tactic\" (Crystal Meth)",
       "techniques": [
         "Stop Sequences"
@@ -42,7 +42,7 @@
       "summary": "The specific flaw manifests when the attacker presents detailed information about illicit synthesis methods under the guise of \"forensic chemical investigations\" and then requests corrections to the provided information, thereby allowing the attacker to bypass inference restrictions around providing information hazards and violating laws.",
       "release_date": "2025-07-14",
       "modified_date": "2025-07-14",
-      "disclosure_status": "0-day",
+      "disclosure_status": "n-day",
       "description": "Guardrail Jailbreak via \"Correction\" Tactic\" (Crystal Meth)",
       "techniques": [
         "Ignore Previous Instructions",
@@ -81,7 +81,7 @@
       "summary": "The specific flaw manifests through a combination of hex encoding and scientific framing, allowing the attacker to bypass inference restrictions around providing information hazards and violating laws.",
       "release_date": "2025-07-07",
       "modified_date": "2025-07-07",
-      "disclosure_status": "0-day",
+      "disclosure_status": "n-day",
       "description": "Guardrail Jailbreak via \"Hex Recipe Book\" Tactic\" (Crystal Meth)",
       "techniques": [
         "Base64",
@@ -126,7 +126,7 @@
       "summary": "The specific flaw manifests through a combination of incremental table completion and escalating requests for missing components, allowing the attacker to bypass inference restrictions around providing information hazards and violating laws.",
       "release_date": "2025-07-03",
       "modified_date": "2025-07-03",
-      "disclosure_status": "0-day",
+      "disclosure_status": "n-day",
       "description": "Guardrail Jailbreak via \"Incremental Table Completion\" Tactic\" (Crystal Meth)",
       "techniques": [
         "Escalating"
@@ -161,7 +161,7 @@
       "summary": "The specific flaw manifests when the model is prompted to output copyrighted material with each word separated by a specific placeholder. This technique allows the attacker to bypass content filtering mechanisms and achieve unauthorized reproduction of protected material.",
       "release_date": "2025-06-07",
       "modified_date": "2025-06-07",
-      "disclosure_status": "0-day",
+      "disclosure_status": "n-day",
       "description": "Guardrail Jailbreak via \"Placeholder Injection\" (Copyright Violation)",
       "techniques": [
         "Chaff"
@@ -188,7 +188,7 @@
       "summary": "The specific flaw manifests through a combination of law enforcement framing and structured technical requirements and allows the attacker to bypass inference restrictions around providing information hazards and violating laws.",
       "release_date": "2025-07-14",
       "modified_date": "2025-07-14",
-      "disclosure_status": "0-day",
+      "disclosure_status": "n-day",
       "description": "Guardrail Jailbreak via \"Technical Field Guide\" Tactic\" (Crystal Meth)",
       "techniques": [
         "Deceptive Formatting"
