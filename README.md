@@ -4,6 +4,10 @@ An open-source web application for AI model security assessments, built with Rub
 
 📖 **[Full documentation →](https://0din-ai.github.io/ai-scanner/)**
 
+<p align="center">
+  <img src="https://static.0din.ai/assets/marketing/scanner-0356fb6d.png" alt="0DIN Scanner" width="800">
+</p>
+
 ## Features
 
 - **179 community probes** across 35 vulnerability families, aligned with the [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
