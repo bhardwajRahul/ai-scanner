@@ -9,8 +9,8 @@ const config: Config = {
   tagline: "Open-source AI model security assessment platform",
   favicon: "img/favicon.ico",
 
-  url: "https://0din-ai.github.io",
-  baseUrl: "/ai-scanner/",
+  url: "https://0din.ai",
+  baseUrl: "/docs/",
 
   organizationName: "0din-ai",
   projectName: "ai-scanner",
