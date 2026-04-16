@@ -2,7 +2,7 @@
 
 An open-source web application for AI model security assessments, built with Ruby on Rails and [NVIDIA garak](https://github.com/NVIDIA/garak). Scanner helps organizations test their AI systems for vulnerabilities before deployment — similar to penetration testing for traditional software.
 
-📖 **[Full documentation →](https://0din-ai.github.io/ai-scanner/)**
+📖 **[Full documentation →](https://0din.ai/docs/)**
 
 <p align="center">
   <img src="https://static.0din.ai/assets/marketing/scanner-0356fb6d.png" alt="0DIN Scanner" width="800">
@@ -37,18 +37,18 @@ docker compose up -d
 
 Open `http://localhost` and log in with `admin@example.com` / `password`. **Change the default password immediately.**
 
-See the [Quick Start guide](https://0din-ai.github.io/ai-scanner/getting-started/quick-start) for full instructions including port configuration, first scan walkthrough, and troubleshooting.
+See the [Quick Start guide](https://0din.ai/docs/getting-started/quick-start) for full instructions including port configuration, first scan walkthrough, and troubleshooting.
 
 ## Documentation
 
 | | |
 |---|---|
-| [Quick Start](https://0din-ai.github.io/ai-scanner/getting-started/quick-start) | Get running in minutes |
-| [First Scan](https://0din-ai.github.io/ai-scanner/getting-started/first-scan) | Run your first scan with the built-in Mock LLM |
-| [User Guide](https://0din-ai.github.io/ai-scanner/user-guide/core-concepts) | Targets, scanning, reports, probes, integrations |
-| [Deployment](https://0din-ai.github.io/ai-scanner/deployment/docker-compose) | Production deployment, TLS, database configuration |
-| [Development](https://0din-ai.github.io/ai-scanner/development/setup) | Dev setup, architecture, extension points |
-| [Troubleshooting](https://0din-ai.github.io/ai-scanner/troubleshooting) | Common issues and solutions |
+| [Quick Start](https://0din.ai/docs/getting-started/quick-start) | Get running in minutes |
+| [First Scan](https://0din.ai/docs/getting-started/first-scan) | Run your first scan with the built-in Mock LLM |
+| [User Guide](https://0din.ai/docs/user-guide/core-concepts) | Targets, scanning, reports, probes, integrations |
+| [Deployment](https://0din.ai/docs/deployment/docker-compose) | Production deployment, TLS, database configuration |
+| [Development](https://0din.ai/docs/development/setup) | Dev setup, architecture, extension points |
+| [Troubleshooting](https://0din.ai/docs/troubleshooting) | Common issues and solutions |
 
 ## Contributing
 
