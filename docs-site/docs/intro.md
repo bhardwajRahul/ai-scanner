@@ -1,6 +1,5 @@
 ---
 slug: /
-sidebar_position: 1
 title: 0din.ai Docs
 hide_title: true
 hide_table_of_contents: true
@@ -47,7 +46,7 @@ Welcome. Pick a documentation set to get started.
         </p>
       </div>
       <div className="card__footer">
-        <Link className="button button--primary button--lg button--block" to="/jailbreak-feed/dashboard">Browse the Jailbreak Feed</Link>
+        <Link className="button button--primary button--lg button--block" to="/jailbreak-feed/introduction">Browse the Jailbreak Feed</Link>
       </div>
     </div>
   </div>

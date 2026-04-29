@@ -11,6 +11,9 @@ import {
   splitNavbarItems,
   useNavbarMobileSidebar,
 } from "@docusaurus/theme-common/internal";
+// `theme-common/internal` is unstable across Docusaurus versions. Re-verify
+// these imports on each major upgrade — there is no public API for
+// path-conditional navbar items as of 3.x.
 import NavbarItem from "@theme/NavbarItem";
 import NavbarColorModeToggle from "@theme/Navbar/ColorModeToggle";
 import SearchBar from "@theme/SearchBar";

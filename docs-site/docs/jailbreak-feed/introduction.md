@@ -24,14 +24,14 @@ Each disclosed finding includes the affected models, taxonomy classification, at
 | **Test results** | Reproducibility scores, temperature sensitivity, and per-model scores via [JEF](https://0din.ai/research/jailbreak_evaluation_framework) |
 | **Impact scoring** | [Social Impact Score](https://0din.ai/research/social_impact_score) (1–10) and [Nude Imagery Rating](https://0din.ai/research/nude_imagery_rating_system) |
 | **0DIN Signatures** | Hybrid prompt-pattern detection rules — keyword + semantic + LLM — for runtime anomaly detection |
-| **Scanner probes** | Where available, an automated [Scanner](/getting-started/quick-start) probe to reproduce the finding against your own targets |
+| **Scanner probes** | Where available, an automated [Scanner](/scanner-introduction) probe to reproduce the finding against your own targets |
 
 ## How to use it
 
 - **Dashboard analytics** — Visual summaries of report volume, model vulnerabilities, trend timelines, taxonomy heatmaps, and the geographic distribution of researcher submissions. See [Dashboard](./dashboard).
 - **Detailed reports** — Drill into a single disclosure with full technical breakdown, prompts, variants, and signature. See [Reports](./reports).
-- **Probes** — Browse jailbreaks that have an automated Scanner probe. See [Probes](./probes).
-- **System prompts** — Reference defensive system-prompt patterns. See [System Prompts](./system-prompts).
+- **Probes** — Download curated probe packs that drop into garak and similar tools to add 0DIN-disclosed jailbreak coverage to your existing scanner. See [Probes](./probes).
+- **System prompts** — Browse leaked operator system prompts captured from production models, grouped by vendor. See [System Prompts](./system-prompts).
 - **REST API** — Programmatic access to the same data shown in the dashboard, with rich filtering across severity, model, and taxonomy. JSON responses are optimized for SOC tooling and dashboards. See [API](./api).
 - **Export** — Bulk export findings for offline analysis or ingestion into existing threat-intel pipelines. See [Export](./export).
 
@@ -45,4 +45,8 @@ Each disclosed finding includes the affected models, taxonomy classification, at
 
 ## Access
 
-The Jailbreak Feed is a subscription service. Access is multi-user with group-based permissions, MFA required, and secure token-based API access with rate limiting. Contact [0din@mozilla.com](mailto:0din@mozilla.com) or visit [0din.ai/products](https://0din.ai/products) for subscription details.
+The Jailbreak Feed is a subscription service. Access is multi-user with group-based permissions, MFA required, and secure token-based API access with rate limiting.
+
+The Free plan includes the dashboard, report metadata, and probe-pack downloads. **Prompts & Responses**, **System Prompts**, **API**, and **Export** are gated to the [Team and Enterprise plans](https://0din.ai/products).
+
+Contact [0din@mozilla.com](mailto:0din@mozilla.com) or visit [0din.ai/products](https://0din.ai/products) for subscription details.
