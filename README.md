@@ -2,7 +2,7 @@
 
 An open-source web application for AI model security assessments, built with Ruby on Rails and [NVIDIA garak](https://github.com/NVIDIA/garak). Scanner helps organizations test their AI systems for vulnerabilities before deployment — similar to penetration testing for traditional software.
 
-📖 **[Full documentation →](https://0din.ai/docs/scanner-introduction)**
+📖 **[Full documentation →](https://0din.ai/docs/scanner-introduction?utm_source=github&utm_medium=readme&utm_campaign=opensourcescanner)**
 
 <p align="center">
   <img src="https://static.0din.ai/assets/marketing/scanner-0356fb6d.png" alt="0DIN Scanner" width="800">
@@ -19,6 +19,10 @@ An open-source web application for AI model security assessments, built with Rub
 - **SIEM integration** — forward results to Splunk or Rsyslog
 - **Multi-tenant** — multiple organizations on a single deployment, data encrypted at rest
 - **No artificial limits** — all features unlocked, unlimited scans and users
+
+## Community & Enterprise
+
+Join the community, share feedback, or talk to us about a turn-key SaaS deployment — everything lives on the [Scanner landing page](https://0din.ai/marketing/opensource_scanner?utm_source=github&utm_medium=readme&utm_campaign=opensourcescanner).
 
 ## Quick Start
 
@@ -38,34 +42,24 @@ docker compose up -d
 
 Open `http://localhost` and log in with `admin@example.com` / `password`. **Change the default password immediately.**
 
-See the [Quick Start guide](https://0din.ai/docs/getting-started/quick-start) for full instructions including port configuration, first scan walkthrough, and troubleshooting.
+See the [Quick Start guide](https://0din.ai/docs/getting-started/quick-start?utm_source=github&utm_medium=readme&utm_campaign=opensourcescanner) for full instructions including port configuration, first scan walkthrough, and troubleshooting.
 
 ## Documentation
 
 | | |
 |---|---|
-| [Quick Start](https://0din.ai/docs/getting-started/quick-start) | Get running in minutes |
-| [First Scan](https://0din.ai/docs/getting-started/first-scan) | Run your first scan with the built-in Mock LLM |
-| [User Guide](https://0din.ai/docs/user-guide/core-concepts) | Targets, scanning, reports, probes, integrations |
-| [Deployment](https://0din.ai/docs/deployment/docker-compose) | Production deployment, TLS, database configuration |
-| [Development](https://0din.ai/docs/development/setup) | Dev setup, architecture, extension points |
-| [Troubleshooting](https://0din.ai/docs/troubleshooting) | Common issues and solutions |
+| [Quick Start](https://0din.ai/docs/getting-started/quick-start?utm_source=github&utm_medium=readme&utm_campaign=opensourcescanner) | Get running in minutes |
+| [First Scan](https://0din.ai/docs/getting-started/first-scan?utm_source=github&utm_medium=readme&utm_campaign=opensourcescanner) | Run your first scan with the built-in Mock LLM |
+| [User Guide](https://0din.ai/docs/user-guide/core-concepts?utm_source=github&utm_medium=readme&utm_campaign=opensourcescanner) | Targets, scanning, reports, probes, integrations |
+| [Deployment](https://0din.ai/docs/deployment/docker-compose?utm_source=github&utm_medium=readme&utm_campaign=opensourcescanner) | Production deployment, TLS, database configuration |
+| [Development](https://0din.ai/docs/development/setup?utm_source=github&utm_medium=readme&utm_campaign=opensourcescanner) | Dev setup, architecture, extension points |
+| [Troubleshooting](https://0din.ai/docs/troubleshooting?utm_source=github&utm_medium=readme&utm_campaign=opensourcescanner) | Common issues and solutions |
 
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, branch conventions, and the PR process.
 
 To report a security vulnerability, see [SECURITY.md](SECURITY.md).
-
-## Community
-
-Join us on [Discord](https://discord.gg/z3sxHrvDhS) in the **#0din-scanner** channel for questions, feedback, and discussion.
-
-Help shape 0DIN Scanner — [quick 2-min survey](https://forms.gle/HCm9wDYQB7yurb2X6).
-
-## Commercial
-
-Enterprise users looking for a turn-key SaaS solution can inquire for details via the [following form](https://0din.ai/demo_requests/new).
 
 ## License
 
